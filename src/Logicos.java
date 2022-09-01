@@ -11,15 +11,12 @@ public class Logicos {
         System.out.println(!!condicion1);
         System.out.println(!condicion2);
 
-        System.out.println("Mesa de la verdad & ");
+        System.out.println("Mesa de la verdad & (AND)");
         System.out.println(true && true);
         System.out.println(true && false);
-        System.out.println(false && true);
-        System.out.println(false && false);
+
 
         System.out.println("Mesa de la verdad OU (OR");
-        System.out.println(true || true);
-        System.out.println(true || false);
         System.out.println(false || true);
         System.out.println(false || false);
 
