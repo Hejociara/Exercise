@@ -3,13 +3,13 @@ public class Logicos {
      * @author Hejociara
      */
     public static void main(String[] args) {
-        boolean condition1 = true;
-        boolean condition2 = 3 > 7;
+        boolean condicion1 = true;
+        boolean condicion2 = 3 > 7;
 
-        System.out.println(condition1 && !condition2);
-        System.out.println(condition1 || condition2);
-        System.out.println(!!condition1);
-        System.out.println(!condition2);
+        System.out.println(condicion1 && !condicion2);
+        System.out.println(condicion1 || condicion2);
+        System.out.println(!!condicion1);
+        System.out.println(!condicion2);
 
         System.out.println("Mesa de la verdad & ");
         System.out.println(true && true);
@@ -17,7 +17,21 @@ public class Logicos {
         System.out.println(false && true);
         System.out.println(false && false);
 
-        System.out.println("Mesa de la verdad OU");
+        System.out.println("Mesa de la verdad OU (OR");
+        System.out.println(true || true);
+        System.out.println(true || false);
+        System.out.println(false || true);
+        System.out.println(false || false);
+
+        System.out.println("Mesa de la verdad OU Exclusivo (XOR) ");
+        System.out.println(true ^ true);
+        System.out.println(true ^ false);
+        System.out.println(false ^ true);
+        System.out.println(false ^ false);
+
+        System.out.println("Mesa de la verdad NOT");
+        System.out.println(!true);
+        System.out.println(!false);
 
     }
 }
