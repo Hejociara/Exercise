@@ -11,6 +11,6 @@ public class Ternary {
         boolean trabajo = buenComportamiento && pasoPorMedia;
         String resultado = trabajo ? "Sí." : "No.";
 
-        System.out.println("Hacer trabajo? " + resultado);
+        System.out.printf("Hacer trabajo? %s", resultado);
     }
 }
