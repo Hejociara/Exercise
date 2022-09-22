@@ -16,8 +16,8 @@ public class IfElseIf {
             }
         else if (nota >= 6.1)
             System.out.println("Concepto B");
-        else if(nota){
-            System.out.println("Concepto B");
+        else if(nota >= 4.0){
+            System.out.println("Concepto C");
         }
 
         System.out.println("Fin");
