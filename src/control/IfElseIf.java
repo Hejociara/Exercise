@@ -11,14 +11,16 @@ public class IfElseIf {
 
         if(nota > 10 || nota < 0)
             System.out.println("Nota inválida");
-        else if (nota >= 8.1) {
+        else if (nota >= 8.1)
             System.out.println("Concepto A");
-            }
         else if (nota >= 6.1)
             System.out.println("Concepto B");
-        else if(nota >= 4.0){
+        else if(nota >= 4.1)
             System.out.println("Concepto C");
-        }
+        else if(nota >= 2.1)
+            System.out.println("Concepto D");
+        else if(nota >= 2.1)
+            System.out.println("Concepto E");
 
         System.out.println("Fin");
 
