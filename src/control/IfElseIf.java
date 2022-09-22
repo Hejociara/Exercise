@@ -9,8 +9,10 @@ public class IfElseIf {
         System.out.print("Ingresa una nota: ");
         double nota = entrada.nextDouble();
 
-        if(nota > 10 || nota < 0)
+        if(nota > 10 || nota < 0) {
             System.out.println("Nota inválida");
+            System.out.println("Felicitación");
+        }
         else if (nota >= 8.1)
             System.out.println("Concepto A");
         else if (nota >= 6.1)
