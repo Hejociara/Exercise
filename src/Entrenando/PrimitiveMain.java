@@ -1,4 +1,4 @@
-package Entreinando;
+package Entrenando;
 
 /**
  * @author : Hejociara
