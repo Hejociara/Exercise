@@ -11,7 +11,6 @@ public class WhileIndeterminado {
             System.out.println("Usted dice: ");
             valor = entrada.nextLine();
         }
-
         entrada.close();
     }
 }
