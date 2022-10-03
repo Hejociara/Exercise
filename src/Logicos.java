@@ -8,7 +8,7 @@ public class Logicos {
 
         System.out.println(condicion1 && !condicion2);
         System.out.println(condicion1 || condicion2);
-        System.out.println(!!condicion1);
+        System.out.println(!condicion1);
         System.out.println(!condicion2);
 
         System.out.println("Mesa de la verdad & (AND)");

@@ -6,9 +6,9 @@ public class Relacional {
 
         double nota = 7.3;
         boolean buenComportamiento = true;
-        boolean pasoLaMedia = nota >= 7;
+        boolean pasoPromedio = nota >= 7;
 
-        boolean descuento = buenComportamiento && pasoLaMedia;
+        boolean descuento = buenComportamiento && pasoPromedio;
 
         System.out.println("Hay descuento? " + descuento);
     }
