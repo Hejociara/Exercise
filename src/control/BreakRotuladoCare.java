@@ -2,15 +2,15 @@ package control;
 
 public class BreakRotuladoCare {
     public static void main(String[] args) {
-        for (int i = 0; i < 10; i++){
+        externo: for (int i = 0; i < 3; i++){
             for (int j = 0; j < 3; j++){
 
                 if (i == 1){
-                    break;
+                    break externo;
                 }
-                System.out.printf("%d %d\n", i,  j );
+                System.out.printf("[%d %d]", i,  j );
             }
-            System.out.println();
+            System.out.println("\nFim!");
         }
     }
 }
