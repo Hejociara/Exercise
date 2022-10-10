@@ -1,3 +1,5 @@
+package Entrenando;
+
 public class Ternary {
     public static void main(String[] args) {
         double promedio = 8.6;

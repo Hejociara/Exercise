@@ -1,3 +1,5 @@
+package Entrenando;
+
 import java.util.Scanner;
 
 public class StringEquals {

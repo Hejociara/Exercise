@@ -1,3 +1,5 @@
+package Entrenando;
+
 public class Logicos {
     /**
      * @author Hejociara

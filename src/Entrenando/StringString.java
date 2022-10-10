@@ -1,3 +1,5 @@
+package Entrenando;
+
 public class StringString {
     public static void main(String[] args) {
         System.out.println("Olá pessoal".charAt(0));

@@ -1,3 +1,5 @@
+package Entrenando;
+
 import javax.swing.*;
 import java.util.Date;
 
